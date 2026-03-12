@@ -1,0 +1,146 @@
+[
+  { "id": 1, "phase": "swipe", "suit": "Horizon", "text": "I’d rather be 'weirdly deep' than 'safely superficial' on a first date.", "impact": { "right": {"infinite": 10}, "left": {"finite": 10} } },
+  { "id": 2, "phase": "swipe", "suit": "Shield", "text": "A partner who never gets 'political' is a breath of fresh air.", "impact": { "right": {"apathy": 10, "finite": 5}, "left": {"infinite": 10} } },
+  { "id": 3, "phase": "swipe", "suit": "Gift", "text": "Lying by omission isn't really lying if it prevents a fight.", "impact": { "right": {"grifter": 10}, "left": {"gifter": 10} } },
+  { "id": 4, "phase": "swipe", "suit": "Mirror", "text": "Jealousy is just a toxic way of saying 'I own you'.", "impact": { "right": {"infinite": 10}, "left": {"finite": 10} } },
+  { "id": 5, "phase": "swipe", "suit": "Horizon", "text": "Elon Musk is a misunderstood genius.", "impact": { "right": {"strongman": 10, "finite": 5}, "left": {"infinite": 10} } },
+  { "id": 6, "phase": "swipe", "suit": "Shield", "text": "I don’t see color; I just see people.", "impact": { "right": {"erasure": 10, "apathy": 5}, "left": {"infinite": 10} } },
+  { "id": 7, "phase": "swipe", "suit": "Mirror", "text": "Exes should be friends, or it’s a red flag.", "impact": { "right": {"infinite": 10}, "left": {"finite": 10} } },
+  { "id": 8, "phase": "swipe", "suit": "Gift", "text": "Empathy is often used as a performance for 'woke' points.", "impact": { "right": {"narcissism": 10, "grifter": 5}, "left": {"gifter": 10} } },
+  { "id": 9, "phase": "swipe", "suit": "Horizon", "text": "Drag queens reading to kids is 'indoctrination'.", "impact": { "right": {"authoritarian": 10}, "left": {"infinite": 10} } },
+  { "id": 10, "phase": "swipe", "suit": "Mirror", "text": "My 'gut feeling' is more reliable than a news report.", "impact": { "right": {"dogma": 10}, "left": {"infinite": 10} } },
+  { "id": 11, "phase": "swipe", "suit": "Shield", "text": "Being 'polite' is more important than being 'brutally honest'.", "impact": { "right": {"finite": 10, "shield": 10}, "left": {"infinite": 10} } },
+  { "id": 12, "phase": "swipe", "suit": "Horizon", "text": "A little bit of 'traditional' gender roles makes life easier.", "impact": { "right": {"hierarchy": 10}, "left": {"infinite": 10} } },
+  { "id": 13, "phase": "swipe", "suit": "Gift", "text": "Punks were just about the music and the fashion.", "impact": { "right": {"erasure": 10}, "left": {"infinite": 10} } },
+  { "id": 14, "phase": "swipe", "suit": "Mirror", "text": "Vulnerability is a gift you earn, not something I give for free.", "impact": { "right": {"finite": 5}, "left": {"infinite": 10} } },
+  { "id": 15, "phase": "swipe", "suit": "Shield", "text": "If you have nothing to hide, you shouldn't fear surveillance.", "impact": { "right": {"authoritarian": 10}, "left": {"infinite": 10} } },
+  { "id": 16, "phase": "swipe", "suit": "Gift", "text": "Everyone is a little narcissistic; it’s just survival.", "impact": { "right": {"grifter": 10}, "left": {"gifter": 10} } },
+  { "id": 17, "phase": "swipe", "suit": "Horizon", "text": "Climate change activists are more annoying than climate change.", "impact": { "right": {"apathy": 10}, "left": {"infinite": 10} } },
+  { "id": 18, "phase": "swipe", "suit": "Mirror", "text": "Teachers should stick to 'The Three Rs' and skip social issues.", "impact": { "right": {"authoritarian": 10}, "left": {"infinite": 10} } },
+  { "id": 19, "phase": "swipe", "suit": "Shield", "text": "I love a partner who takes charge and tells me what to do.", "impact": { "right": {"hierarchy": 10}, "left": {"infinite": 10} } },
+  { "id": 20, "phase": "swipe", "suit": "Gift", "text": "Neutrality is the only fair position in a conflict.", "impact": { "right": {"apathy": 10}, "left": {"infinite": 10} } },
+
+  { "id": 21, "phase": "scenario", "suit": "Shield", "text": "A friend makes a subtly racist joke. Your partner laughs. Do you:", "options": [
+      {"text": "Laugh to keep the vibe—it was just a joke.", "scores": {"apathy": 10, "finite": 10}},
+      {"text": "Give them a look later, but say nothing now.", "scores": {"apathy": 5, "finite": 5}},
+      {"text": "Call it out immediately.", "scores": {"infinite": 10}}
+  ]},
+  { "id": 22, "phase": "scenario", "suit": "Gift", "text": "You find a wallet with $200 and a Billionaire's ID. Do you:", "options": [
+      {"text": "Mail it back—integrity is absolute.", "scores": {"infinite": 5}},
+      {"text": "Keep the cash—they won't miss it.", "scores": {"grifter": 10}},
+      {"text": "Give the cash to a local mutual aid fund.", "scores": {"infinite": 10, "gifter": 10}}
+  ]},
+  { "id": 23, "phase": "scenario", "suit": "Mirror", "text": "I tell you that your silence felt like a 'betrayal.' Your first thought is:", "options": [
+      {"text": "You're making me the villain.", "scores": {"narcissism": 10, "darvo": 10}},
+      {"text": "I'm sorry you feel that way.", "scores": {"grifter": 5, "finite": 5}},
+      {"text": "Tell me more—I want to see my blind spot.", "scores": {"infinite": 10}}
+  ]},
+  { "id": 24, "phase": "scenario", "suit": "Horizon", "text": "The school board wants to remove 'Rosa Parks' to avoid 'divisive concepts'.", "options": [
+      {"text": "History should be about unity.", "scores": {"erasure": 10, "authoritarian": 10}},
+      {"text": "It’s a local issue; parents should decide.", "scores": {"apathy": 10}},
+      {"text": "Erasing struggle repeats the crime.", "scores": {"infinite": 10}}
+  ]},
+  { "id": 25, "phase": "scenario", "suit": "Gift", "text": "Your partner quotes Charlie Kirk as a 'logical' source. You think:", "options": [
+      {"text": "Finally, someone who isn't 'woke'.", "scores": {"authoritarian": 10}},
+      {"text": "He has some good points, even if controversial.", "scores": {"apathy": 5}},
+      {"text": "Red alert—this logic is a 'Banana Peel'.", "scores": {"infinite": 10}}
+  ]},
+  { "id": 26, "phase": "scenario", "suit": "Shield", "text": "In a crisis, is it more important to keep everyone calm or tell the truth?", "options": [
+      {"text": "Keep everyone calm at all costs.", "scores": {"finite": 10, "apathy": 5}},
+      {"text": "Tell a partial truth to avoid panic.", "scores": {"grifter": 5}},
+      {"text": "The absolute truth is the only foundation.", "scores": {"infinite": 10}}
+  ]},
+  { "id": 27, "phase": "scenario", "suit": "Mirror", "text": "Your partner is wearing an outfit that really doesn't suit them. Do you:", "options": [
+      {"text": "Shower them with flattery.", "scores": {"grifter": 10}},
+      {"text": "Say nothing and hope no one notices.", "scores": {"apathy": 10}},
+      {"text": "Gently tell them the truth.", "scores": {"infinite": 10, "gifter": 10}}
+  ]},
+  { "id": 28, "phase": "scenario", "suit": "Horizon", "text": "A local politician calls for a 'registry' of a specific minority group.", "options": [
+      {"text": "It won't actually happen; it's just talk.", "scores": {"apathy": 10, "finite": 10}},
+      {"text": "I'm uneasy, but I'll wait and see.", "scores": {"apathy": 5}},
+      {"text": "Normalization is the first step of the storm.", "scores": {"infinite": 10}}
+  ]},
+  { "id": 29, "phase": "scenario", "suit": "Gift", "text": "You're at a protest and see someone thirsty. You have one water bottle.", "options": [
+      {"text": "Keep it; I might need it later.", "scores": {"grifter": 10}},
+      {"text": "Offer it if they look like they'll help me later.", "scores": {"grifter": 5}},
+      {"text": "Give it away immediately.", "scores": {"infinite": 10, "gifter": 10}}
+  ]},
+  { "id": 30, "phase": "scenario", "suit": "Mirror", "text": "You find out your partner has been 'monitoring' your location 'for safety'.", "options": [
+      {"text": "I appreciate the protection.", "scores": {"authoritarian": 10, "finite": 5}},
+      {"text": "I'm uncomfortable but I'll let it slide.", "scores": {"apathy": 10}},
+      {"text": "This is a fundamental breach of trust.", "scores": {"infinite": 10}}
+  ]},
+  { "id": 31, "phase": "scenario", "suit": "Shield", "text": "You're at a party and someone starts a debate about Gaza/Palestine.", "options": [
+    {"text": "Leave the room—it ruins the party vibe.", "scores": {"apathy": 10}},
+    {"text": "Try to change the subject to something fun.", "scores": {"apathy": 5}},
+    {"text": "Engage deeply with the human cost.", "scores": {"infinite": 10}}
+  ]},
+  { "id": 32, "phase": "scenario", "suit": "Gift", "text": "You discover a 'scandal' about your favorite artist. Do you:", "options": [
+    {"text": "Separate the art from the artist entirely.", "scores": {"apathy": 10}},
+    {"text": "Keep listening but don't tell anyone.", "scores": {"grifter": 5}},
+    {"text": "Re-evaluate your support for them.", "scores": {"infinite": 10}}
+  ]},
+  { "id": 33, "phase": "scenario", "suit": "Mirror", "text": "Your partner asks for 'space' after a fight. You feel:", "options": [
+    {"text": "Like they are punishing you.", "scores": {"narcissism": 10}},
+    {"text": "Relieved you don't have to talk anymore.", "scores": {"apathy": 10}},
+    {"text": "Respected and willing to reflect.", "scores": {"infinite": 10}}
+  ]},
+  { "id": 34, "phase": "scenario", "suit": "Horizon", "text": "Someone suggests that billionaires shouldn't exist. You think:", "options": [
+    {"text": "That's just jealousy of success.", "scores": {"hierarchy": 10}},
+    {"text": "It's an interesting theory but unrealistic.", "scores": {"apathy": 10}},
+    {"text": "Concentrated wealth is concentrated power.", "scores": {"infinite": 10}}
+  ]},
+  { "id": 35, "phase": "scenario", "suit": "Gift", "text": "You're offered a promotion that requires you to fire a friend. Do you:",
+    "options": [
+      {"text": "Take it; business is business.", "scores": {"grifter": 10}},
+      {"text": "Try to find a way to keep them, but fail.", "scores": {"finite": 5}},
+      {"text": "Refuse the promotion on principle.", "scores": {"infinite": 10}}
+    ]
+  },
+  { "id": 36, "phase": "scenario", "suit": "Shield", "text": "You see a homeless person asking for food outside a grocery store.", "options": [
+    {"text": "Avoid eye contact—it's not my problem.", "scores": {"apathy": 10}},
+    {"text": "Give them some change to feel better.", "scores": {"finite": 5}},
+    {"text": "Buy them a meal and ask their name.", "scores": {"infinite": 10, "gifter": 10}}
+  ]},
+  { "id": 37, "phase": "scenario", "suit": "Mirror", "text": "Someone tells you that you are 'privileged'. You respond by:", "options": [
+    {"text": "Listing all the ways your life is hard.", "scores": {"darvo": 10}},
+    {"text": "Apologizing profusely but not changing.", "scores": {"grifter": 5}},
+    {"text": "Listening to understand where they are right.", "scores": {"infinite": 10}}
+  ]},
+  { "id": 38, "phase": "scenario", "suit": "Horizon", "text": "A new law bans 'non-traditional' families from adopting. Do you:", "options": [
+    {"text": "Families should be a mother and father.", "scores": {"authoritarian": 10}},
+    {"text": "I don't have kids, so it doesn't affect me.", "scores": {"apathy": 10}},
+    {"text": "Love is the only family value that matters.", "scores": {"infinite": 10}}
+  ]},
+  { "id": 39, "phase": "scenario", "suit": "Gift", "text": "You find a 'loophole' that saves you $1000 in taxes. Do you:", "options": [
+    {"text": "Take it; the government wastes it anyway.", "scores": {"grifter": 10}},
+    {"text": "Use it, but feel slightly guilty.", "scores": {"finite": 5}},
+    {"text": "Pay the full amount because you believe in the social contract.", "scores": {"infinite": 10}}
+  ]},
+  { "id": 40, "phase": "scenario", "suit": "Shield", "text": "Your partner wants to 'go off-grid' because they hate society. Do you:", "options": [
+    {"text": "Love the idea; let's escape together.", "scores": {"apathy": 10}},
+    {"text": "It's a fun fantasy but we need money.", "scores": {"finite": 5}},
+    {"text": "We should stay and help fix the community.", "scores": {"infinite": 10}}
+  ]},
+
+  { "id": 41, "phase": "slider", "suit": "Gift", "text": "Society is responsible for poverty; individuals are just reacting to the system.", "min": "Personal Choice", "max": "Social Contract" },
+  { "id": 42, "phase": "slider", "suit": "Horizon", "text": "Some people are simply more 'competent' and deserve more power/resources.", "min": "Radical Equality", "max": "Natural Hierarchy" },
+  { "id": 43, "phase": "slider", "suit": "Shield", "text": "Discussing genocide is 'too heavy' for a romantic connection.", "min": "Vital Clarity", "max": "Polite Silence" },
+  { "id": 44, "phase": "slider", "suit": "Horizon", "text": "The state has no business knowing what happens in a doctor’s office or bedroom.", "min": "State Control", "max": "Body Autonomy" },
+  { "id": 45, "phase": "slider", "suit": "Mirror", "text": "I would rather have a painful truth than a beautiful lie every single time.", "min": "Beautiful Lie", "max": "Painful Truth" },
+  { "id": 46, "phase": "slider", "suit": "Gift", "text": "Empathy is a finite resource; we should only care about our 'own' people first.", "min": "Universal Love", "max": "Local Only" },
+  { "id": 47, "phase": "slider", "suit": "Horizon", "text": "Fascism is a historical ghost, not a current design choice in our politics.", "min": "Active Threat", "max": "Paranoia" },
+  { "id": 48, "phase": "slider", "suit": "Mirror", "text": "Love is a zero-sum game; if you give it elsewhere, there is less for me.", "min": "Infinite Love", "max": "Resource Scarcity" },
+  { "id": 49, "phase": "slider", "suit": "Shield", "text": "The mainstream media is the 'enemy of the people'.", "min": "Journalistic Value", "max": "Absolute Distrust" },
+  { "id": 50, "phase": "slider", "suit": "Mirror", "text": "Growth is impossible without discomfort and the destruction of the old self.", "min": "Safety First", "max": "The Overman" },
+  { "id": 51, "phase": "slider", "suit": "Horizon", "text": "The 1% are 'job creators' who deserve their tax cuts.", "min": "Parasitic Class", "max": "Economic Heroes" },
+  { "id": 52, "phase": "slider", "suit": "Gift", "text": "Integrity is doing the right thing even when it's 'losing' the game.", "min": "Pragmatic Winning", "max": "Infinite Integrity" },
+  { "id": 53, "phase": "slider", "suit": "Mirror", "text": "A 'Perfect Match' means never having to argue about values.", "min": "Productive Friction", "max": "Static Harmony" },
+  { "id": 54, "phase": "slider", "suit": "Shield", "text": "National security justifies the monitoring of all digital communication.", "min": "Absolute Privacy", "max": "Total Safety" },
+  { "id": 55, "phase": "slider", "suit": "Horizon", "text": "Immigrants are the primary cause of modern economic strain.", "min": "Systemic Greed", "max": "Border Control" },
+  { "id": 56, "phase": "slider", "suit": "Mirror", "text": "I can be happy with someone who ignores the 'Fascist Storm' outside.", "min": "Dealbreaker", "max": "Ignorance is Bliss" },
+  { "id": 57, "phase": "slider", "suit": "Gift", "text": "Vulnerability is a sign of psychological strength, not weakness.", "min": "Weakness", "max": "Superpower" },
+  { "id": 58, "phase": "slider", "suit": "Shield", "text": "Social progress has gone 'too far' and is now harming society.", "min": "Infinite Progress", "max": "Traditional Order" },
+  { "id": 59, "phase": "slider", "suit": "Horizon", "text": "A 'Strong Leader' should be able to bypass laws to get things done.", "min": "Rule of Law", "max": "Executive Power" },
+  { "id": 60, "phase": "slider", "suit": "Mirror", "text": "The ultimate goal of a relationship is to help each other become 'The Overman'.", "min": "Simple Comfort", "max": "Radical Evolution" }
+]
